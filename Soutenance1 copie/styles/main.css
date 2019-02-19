@@ -4,21 +4,36 @@ body {
   font-family: 'SF pro display', 'Niramit','Arial',sans-serif;
   font-size: 14px;
   color: #444;
-}
-
-body, html{height:100%;}
-
-body{
+  position: relative;
+  min-height: 100%;
   text-align:center;
 }
 
-div.container {
+* {
+  box-sizing: inherit;
+}
+html {
+  height:100%;
+  box-sizing: border-box;
+}
+
+div.photo {
+  width: 100%;
+  margin: 0 auto;
+}
+
+div.container, div.containerSubMenu {
   margin: 0 auto;
   width: 960px;
+  max-width: 1280px;
   min-height: 100%;
   display:flex;
   flex-wrap: wrap;
   position: relative;
+}
+
+div.containerSubMenu {
+  justify-content: space-between;
 }
 
 /*
@@ -70,18 +85,12 @@ div#bar {
   width: 960px;
   height: 1px;
   position: relative;
-  bottom: 870px;
+  bottom: 170px;
 }
 
 /*
 BODY
 */
-
-img {
-  width: 700px;
-  height: 700px;
-  margin: 0 auto;
-}
 
 h1 {
   font-size: 65px;
@@ -119,8 +128,36 @@ button {
   letter-spacing: 1px;
 }
 
-h1, .home {
+h1#title, .home {
   text-align: center;
+}
+
+img.home {
+  width: 1440px;
+  height: 840px;
+  position: relative;
+  bottom: 70px;
+}
+
+div.colorBlack {
+  background-color: black;
+  height: 700px;
+}
+
+h1.white {
+  color: white;
+  font-weight: 400;
+}
+
+.colorBlack img {
+  width: 600px;
+  height: 600px;
+}
+
+.colorBlack .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /*
@@ -130,6 +167,8 @@ footer {
   background: #f2f2f2;
   position: absolute;
   bottom:0;
+  right:0;
+  left:0;
   width:100%;
   padding-top:50px;
   height:50px;
@@ -163,4 +202,3 @@ footer li:hover a {
 .footerItem {
   list-style: none;
 }
-*/
