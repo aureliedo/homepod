@@ -167,11 +167,33 @@ p.white {
   align-items: center;
 }
 
-section button {
+section a {
   color: #2d74c4;
-  background-color: black;
-  border-color: black;
   font-size: 20px;
+  text-decoration: none;
+}
+
+.vid a {
+  color: white;
+  font-size: 20px;
+}
+
+.vid img {
+  width: 100%;
+}
+
+.vid h1.white{
+  position: absolute;
+  bottom: 160px;
+  left: 90px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.vid a {
+  position: absolute;
+  bottom: 130px;
+  left: 94px;
 }
 
 /*
