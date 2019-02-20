@@ -24,7 +24,7 @@ div.photo {
 
 div.container, div.containerSubMenu {
   margin: 0 auto;
-  width: 960px;
+  width: 990px;
   max-width: 1280px;
   min-height: 100%;
   display:flex;
@@ -58,7 +58,7 @@ header .container img {
 header ul {
   list-style: none;
   margin: 0;
-  padding:0;
+  padding: 0;
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -82,7 +82,7 @@ header a {
 
 div#bar {
   background-color: #d6d6d6;
-  width: 960px;
+  width: 980px;
   height: 1px;
   position: relative;
   bottom: 170px;
@@ -141,7 +141,7 @@ img.home {
 
 div.colorBlack {
   background-color: black;
-  height: 600px;
+  height: 680px;
 }
 
 h1.white {
@@ -155,7 +155,7 @@ p.white {
   font-size: 28px;
 }
 
-.colorBlack img {
+.colorBlack img.homepod {
   width: 600px;
   height: 600px;
 }
@@ -228,33 +228,123 @@ div.colorWhite {
   height: 460px;
 }
 
-/*
-FOOTER
+.ipod {
+  height: 390px;
+  width: 850px;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
+}
+
+.bbb {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bbb section {
+  display:flex;
+  flex-direction:row;
+}
+
+div.bbb {
+  height: 750px;
+}
+
+.bbb a {
+  padding: 20px;
+}
+
+#air {
+  height: 700px;
+}
+
+#mus {
+  height: 700px;
+}
+
+section.pub {
+  padding: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.pub1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+p.black {
+  font-weight: lighter;
+  font-size: 28px;
+}
+
+h1.black {
+  font-weight: 400;
+}
+
+.ccc {
+  padding: 20px;
+}
+
+/*FOOTER*/
 
 footer {
   background: #f2f2f2;
-  position: absolute;
-  bottom:0;
-  right:0;
-  left:0;
   width:100%;
   padding-top:50px;
-  height:50px;
 }
 
-footer li {
-  padding: 9px 20px;
+footer ul.info {
+  list-style: none;
+  margin: 0;
+  padding:0;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-footer a {
+footer a,#copyright {
   letter-spacing: 1px;
   font-weight:300;
-  font-size: 10px;
+  font-size: 12px;
   color: #555555;
   text-decoration: none;
 }
 
-footer li:hover a {
+section.help {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section.help a {
+  padding: 28px;
+  color: black;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+section.help img {
+  width: 100px;
+  height: 70px;
+}
+
+div#bar.barre {
+  bottom : 0px;
+}
+
+div#bar.barre2 {
+  bottom : 0px;
+}
+
+footer ul a:hover {
   color : black;
   text-decoration: underline;
 }
@@ -263,10 +353,46 @@ footer li:hover a {
   list-style: none;
   margin: 0;
   padding:0;
+  padding-top: 20px;
+  line-height: 20px;
   display:flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .footerItem {
+  padding: 20px;
   list-style: none;
+  text-align: left;
+}
+
+.footerItem .aaa li {
+  font-size: 20px;
+}
+
+section.copyright {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#flag {
+  padding-left: 600px;
+  height: 15px;
+  margin: 10px;
+}
+
+#fff {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+a.bas {
+  padding: 0px 20px 10px 20px;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+a.first {
+  padding-left: 0px;
 }
