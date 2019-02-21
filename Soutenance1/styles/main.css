@@ -500,3 +500,26 @@ iframe {
 div.final {
   height: 850px;
 }
+
+/*
+page3
+*/
+
+.imgMenu {
+  margin: 100px 200px 100px 200px;
+}
+
+.imgSiri {
+  height:400px;
+  padding-top: 20px;
+}
+
+.siri {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.colorSiri {
+  font-size: 80px;
+}
