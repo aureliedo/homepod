@@ -148,7 +148,7 @@ nav li.bag:hover .menuBag {
   border: 1px #f2f2f2 solid;
 }
 
-nav.subMenu .subMenuItem .buy {
+nav.subMenu .subMenuItem .buy{
   background-color: #2d74c4;
   color: white;
   padding: 4px 12px;
@@ -256,7 +256,7 @@ div.colorWhite {
   align-items: center;
 }
 
-.blocTechnique .technique p{
+.blocTechnique .technique p,p.www {
   font-weight: lighter;
   font-size: 28px;
 }
@@ -535,23 +535,64 @@ section.sque1,section.sque3 {
   align-items: center;
 }
 
-.xxx {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+
+/* SLIDER TEST */
+#zoneslide{
+
+
 }
 
-.apps {
-  height:400px;
+.slider{
+  width: 300%;
+  height: 20%;
+  text-align: center;
+  font-size: 9em;
+  font-family: 'Oswald', sans-serif;
+}
+#slide1,#slide2,#slide3{
+  width: 33.33333333333333%;
+  height: 10%;
+  float: left;
+}
+/*
+#slide1{
+background-color: #f2f2f2;
+}
+#slide2{
+background-color: #f2f2f2;
+}
+#slide3{
+background-color: #f2f2f2;
+}
+*/
+.arrow{
+  position: absolute;
+  z-index: 2000;
+  font-size: 5em;
+  margin-top: -25%;
+}
+#next{
+  right: 30px;
+}
+#prev{
+  left: 30px;
+}
+#next:hover,#prev:hover{
+  color: #777;
+}
+@media only screen and (max-width: 900px) {
+  body{font-size: 14px;}
+}
+@media only screen and (max-width: 600px) {
+  body{font-size: 10px;}
+}
+@media only screen and (max-width: 300px) {
+  body{font-size: 8px;}
+}
+@media only screen and (max-height: 300px) {
+  .arrow{display: none;}
 }
 
-.yyy {
-  margin-top : 0px;
-}
-
-div.ddd {
-  height: 600px;
-}
 
 /*
 CARROUSSEL

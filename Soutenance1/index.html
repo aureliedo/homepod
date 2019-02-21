@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="icon" href="images/apple_logo.png" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
   </head>
   <body>
     <header>
@@ -24,10 +25,10 @@
           <li class="menuItem bag"><span style="font-size: 15px; color: white;"><i class="fas fa-shopping-bag"></i></span>
             <ul class="menuBag">
               <li>Votre panier est vide.</li>
-              <li>Panier</li>
-              <li>Favoris</li>
-              <li>Commandes</li>
-              <li>Se connecter</li>
+              <li><a href="https://www.apple.com/fr/shop/bagPanier" title="panier">Panier</a></li>
+              <li><a href="https://secure2.store.apple.com/fr/shop/sign_in?c=aHR0cHM6Ly93d3cuYXBwbGUuY29tL2ZyL3Nob3B8MWFvczE3NDIxZjY4OGY1NDlmMWYxNjA2YTZiYmM5ZDdmMDM2ODhjNGNjMjU&r=SCDHYHP7CY4H9XK2H&s=aHR0cHM6Ly93d3cuYXBwbGUuY29tL2ZyL3Nob3AvZmF2b3JpdGVzfDFhb3M3YzQxMzRmY2Q5YjBiMzM1YTkzYmVlY2M3OTkwODAyZWY4MTgwMWY3Favoris" title="Favoris">Favoris</a></li>
+              <li><a href="https://secure2.store.apple.com/fr/shop/np/sign_in/order?c=aHR0cHM6Ly9zZWN1cmUyLnN0b3JlLmFwcGxlLmNvbS9mci9zaG9wL2FjY291bnQvaG9tZXwxYW9zYzljNGY4NDgyOGQwNjgwZDY4OWUyYjFkODBmNjdiNzdmMGM5MjgyYQ&r=SCKFUHKXACXX7DYHYT9JT7JJTAPAXHFKH&standardLogin=false&s=aHR0cHM6Ly9zZWN1cmUyLnN0b3JlLmFwcGxlLmNvbS9mci9zaG9wL29yZGVyL2xpc3Q_aGlzdD05MHwxYW9zOTE0ZjhiZWY0ZDFiNGYxODExNmEyOTJkZmZmZjI3NWU0NDM4NjU1NQ&t=SXYD4UDAPXU7P7KXFCommandes" title="Commandes">Commande</a></li>
+              <li><a href="https://secure2.store.apple.com/fr/shop/sign_in?c=aHR0cHM6Ly9zZWN1cmUyLnN0b3JlLmFwcGxlLmNvbS9mci9zaG9wL25wL3NpZ25faW4vb3JkZXI_Yz1hSFIwY0hNNkx5OXpaV04xY21VeUxuTjBiM0psTG1Gd2NHeGxMbU52YlM5bWNpOXphRzl3TDJGalkyOTFiblF2YUc5dFpYd3hZVzl6WXpsak5HWTRORGd5T0dRd05qZ3daRFk0T1dVeVlqRmtPREJtTmpkaU56ZG1NR001TWpneVlRJnI9U0NLRlVIS1hBQ1hYN0RZSFlUOUpUN0pKVEFQQVhIRktIJnN0YW5kYXJkTG9naW49ZmFsc2Umcz1hSFIwY0hNNkx5OXpaV04xY21VeUxuTjBiM0psTG1Gd2NHeGxMbU52YlM5bWNpOXphRzl3TDI5eVpHVnlMMnhwYzNRX2FHbHpkRDA1TUh3eFlXOXpPVEUwWmpoaVpXWTBaREZpTkdZeE9ERXhObUV5T1RKa1ptWm1aakkzTldVME5ETTROalUxTlEmdD1TWFlENFVEQVBYVTdQN0tYRnwxYW9zOGZiOWFjMjM5ZDZjNTc1N2U1MzQyNjVhOWRmYTFhNWRhMzY0YmI2MA&r=SCDHYHP7CY4H9XK2H&s=aHR0cHM6Ly9zZWN1cmUyLnN0b3JlLmFwcGxlLmNvbS9mci9zaG9wL25wL3NpZ25faW4vb3JkZXI_Yz1hSFIwY0hNNkx5OXpaV04xY21VeUxuTjBiM0psTG1Gd2NHeGxMbU52YlM5bWNpOXphRzl3TDJGalkyOTFiblF2YUc5dFpYd3hZVzl6WXpsak5HWTRORGd5T0dRd05qZ3daRFk0T1dVeVlqRmtPREJtTmpkaU56ZG1NR001TWpneVlRJnI9U0NLRlVIS1hBQ1hYN0RZSFlUOUpUN0pKVEFQQVhIRk" title="Conexion">Se connecter</a> </li>
             </ul>
           </li>
         </ul>
@@ -50,6 +51,8 @@
     <div class="bar">
     </div>
     </div>
+
+
     <img class="home" src="images/albums.png" alt="HomePod"/>
     <div class="colorBlack">
         <img class="homepod" src="images/HomePods.png" alt="homepods black and white">
@@ -77,6 +80,25 @@
     </p>
     <a href="https://aureliedo.github.io/homepod/Soutenance1/page3.html" title="En savoir plus">En savoir plus ></a>
   </section>
+</div>
+
+<div id="zoneslide">
+    <div class="slider">
+  <div id="slide1"><span>    <img src="images/learn.jpg" alt="learn" style="max-height: 600px" /> </span></div>
+  <div id="slide2"><span>    <img src="images/ecoute.jpg" alt="listen" style="max-height: 600px" /> </span></div>
+  <div id="slide3"><span>    <img src="images/event.jpg" alt="event" style="max-height: 600px" /></span></div>
+</div>
+<div class="arrow" id="next" data-dir="next">&raquo;</div>
+<div class="arrow" id="prev" data-dir="prev">&laquo;</div>
+</div>
+<section>
+<h2 class="black">Pour vous rapprochez au plus du HomePod.</h2>
+<p class="www">
+  Séances d'écoutes, Evénements, Apprentissage.
+</p>
+<a href="https://support.apple.com/fr-fr" title="assistance">En savoir plus ></a>
+</section>
+<div class="colorWhite">
 </div>
 <div class="colorBlack bbb">
   <section>
@@ -273,6 +295,6 @@
     <a class="bas" href="https://www.apple.com/fr/sitemap/" title="confidentialité">Plan du site</a>
       </div>
     </footer>
-    <script src="scripts/main.js"></script>
+    <script type="text/javascript" src="scripts/main2.js"></script>
   </body>
 </html>
