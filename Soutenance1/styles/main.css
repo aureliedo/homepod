@@ -93,6 +93,10 @@ div.bar {
   bottom: 170px;
 }
 
+.menuBag {
+  z-index : 10000;
+}
+
 /*
 BODY
 */
