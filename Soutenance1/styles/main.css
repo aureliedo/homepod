@@ -535,6 +535,19 @@ section.sque1,section.sque3 {
   align-items: center;
 }
 
+div.ddd {
+  height: 500px;
+}
+
+.apps {
+  height: 400px;
+}
+
+.xxx {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 /* SLIDER TEST */
 #zoneslide{
