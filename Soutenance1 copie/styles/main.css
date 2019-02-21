@@ -458,10 +458,33 @@ div.video {
 
 h2.ttt {
   position: absolute;
-  bottom: 1080px;
+  bottom: 2930px;
   right: 350px;
 }
 
 iframe {
   border: 0px;
+}
+
+.ggg {
+  width: 1440px;
+  height: 600px;
+}
+
+.eee {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eee h2.white {
+  line-height: 60px;
+}
+
+.homesize {
+  height: 400px;
+}
+
+div.final {
+  height: 850px;
 }
