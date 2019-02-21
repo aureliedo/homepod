@@ -80,7 +80,7 @@ header li:hover a {
 header a {
   letter-spacing: 1px;
   font-weight:300;
-  font-size: 14px;
+  font-size: 12px;
   color: white;
   text-decoration: none;
 }
@@ -367,7 +367,7 @@ section.help a {
   padding: 28px;
   color: black;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 section.help img {
@@ -400,13 +400,9 @@ footer ul a:hover {
 }
 
 .footerItem {
-  padding: 20px;
+  padding: 15px;
   list-style: none;
   text-align: left;
-}
-
-.footerItem .aaa li {
-  font-size: 20px;
 }
 
 section.copyright {
@@ -428,7 +424,7 @@ section.copyright {
 
 a.bas {
   padding: 0px 20px 10px 20px;
-  font-size: 11px;
+  font-size: 9px;
   font-weight: 400;
 }
 
@@ -439,6 +435,7 @@ a.first {
 h6.none {
   display: none;
 }
+
 
 /*
 PAGE2
