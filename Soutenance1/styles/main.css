@@ -677,3 +677,137 @@ CARROUSSEL
   background-color: #4E4E4E;
 }
 */
+
+/*
+RESPONSIVE
+*/
+
+@media screen and (min-width:768px) and (max-width:1024px)
+{
+  div.container, div.containerSubMenu {
+    margin: 0 auto;
+    width: 768px;
+    max-width: 1280px;
+    min-height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  nav ul li.menuItem {
+    padding:15px;
+  }
+
+  img.home,#imgSiri,iframe,#spread,.ggg {
+    width: 100%;
+    height: 100%;
+  }
+
+  div.colorBlack {
+    height: 1000px;
+  }
+
+  .arrow {
+    margin-top: -40%;
+  }
+
+#air {
+  height: 400px;
+}
+
+  section a {
+    font-size: 10px;
+  }
+
+  h2.ttt {
+    position:absolute;
+    font-size: 25px;
+    top: 2000px;
+    left: 200px;
+  }
+
+h2.black {
+  font-size: 20px;
+}
+
+div.ddd {
+  height: 500px;
+}
+
+  }
+
+  @media screen and (max-width:768px)
+  {
+    div.container, div.containerSubMenu {
+      margin: 0 auto;
+      width: 450px;
+      max-width: 768px;
+      min-height: 100%;
+      display:flex;
+      flex-wrap: wrap;
+      position: relative;
+  }
+
+  nav ul li.menuItem {
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px 30px;
+  }
+
+  .bar {
+    display: none;
+  }
+
+  .subMenuItem {
+    font-size: 10px;
+  }
+
+h1#title {
+  font-size: 30px;
+}
+
+  img.home,.ggg,#imgSiri,iframe,#spread,.imgSiri,.threePics, .apps {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .colorBlack img.homepod {
+    width: 300px;
+    height: 300px;
+  }
+
+  h2.white,h2.black {
+    font-size: 30px;
+  }
+
+  p.white,.blocTechnique .technique p, p.www,p.black {
+    font-size: 20px;
+  }
+
+  section a,h2.black {
+    font-size: 12px;
+  }
+
+  .icon {
+    margin-top: 0px;
+  }
+
+  .ipod {
+    width: 600px;
+    height: 400px;
+  }
+
+  #air {
+    height: 300px;
+  }
+
+  .imgMenu {
+    margin: 0 auto;
+  }
+
+  .xxx img {
+    height: 300px;
+  }
+
+   }
